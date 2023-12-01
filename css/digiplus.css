@@ -1,0 +1,107 @@
+.digiplus {
+    background: url("../images/digiplus bc.png") rgb(148, 27, 128) no-repeat;
+    background-position-y: 75%;
+    background-position-x: 95%;
+    background-size: 372px 278px;
+    width: 1336px;
+    height: 387px;
+    padding: 16px;
+    margin: 24px 62px 0;
+    border-radius: 16px;
+    position: relative;
+}
+
+.digiplus .right {
+    width: 416px;
+    height: 100%;
+    margin-left: 12px;
+    padding: 24px 24px 0 0;
+    display: inline-block;
+}
+
+
+.digiplus .right a img {
+    height: 32px;
+    object-fit: cover;
+}
+
+.digiplus .right .title {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.digiplus .right .link {
+    width: 104px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 12px;
+    padding: 4px 16px;
+    border: 0.5px solid rgb(240, 240, 241);
+    border-radius: 8px;
+}
+
+.digiplus .right .link svg {
+    width: 24px;
+    height: 24px;
+    fill: rgb(255, 255, 255);
+}
+
+.digiplus .left {
+    width: 878px;
+    height: 355px;
+    background-color: white;
+    display: inline-block;
+    padding: 16px 16px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.digiplus .left .text {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.digiplus .left .title {
+    color: rgb(12, 12, 12);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    gap: 6px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+
+.digiplus .left .link {
+    color: rgb(177, 43, 164);
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 6px;
+    text-align: left;
+    line-height: 22px;
+    width: 85px;
+}
+
+.digiplus .left .item {
+    width: 116px;
+    margin: 0 10px 20px 10px;
+    height: 116px;
+    display: inline-block;
+}
+
+.digiplus .left .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

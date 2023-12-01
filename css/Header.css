@@ -1,0 +1,454 @@
+.header-img {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header1 {
+    background-color: white;
+    width: 100%;
+    height: 68px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 60px;
+    z-index: 100;
+}
+
+.header1 .logo a {
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header1 .search {
+    width: 600px;
+    height: 44px;
+}
+
+.header1 .search form {
+    width: 100%;
+    height: 100%;
+}
+
+.header1 .search form label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header1 .search form label .svgg {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header1 .search form label input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #f0f0f1;
+    border-radius: 8px;
+    padding-right: 54px;
+    color: rgb(129, 133, 139);
+    caret-color: #008eb2;
+    z-index: 9999;
+    transition: all 300ms linear;
+}
+
+.header1 .search form label input:focus {
+    background-color: white;
+}
+
+
+.header1 .search form label input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header1 .buttons {
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.header1 .buttons a:first-child {
+    display: flex;
+    height: 40px;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    gap: 4px;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+}
+
+.header1 .buttons a:first-child span {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 6px;
+}
+
+.header1 .buttons .khat {
+    width: 1px;
+
+    color: rgb(224, 224, 226);
+}
+
+.header1 .buttons a:last-child {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.daste-bandi {
+    width: 1460px;
+    height: 40px;
+    padding: 0 16px;
+}
+
+.daste-bandi-list {
+    font-size: 14px !important;
+    color: rgb(63, 64, 100) !important;
+    font-weight: 700;
+}
+
+
+/*menu nested*/
+
+.menu {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    padding: 0 16px;
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    font-weight: 400;
+    position: fixed;
+    top: 128px;
+    z-index: 100;
+    box-shadow: 0 1px 1px lightgray;
+}
+
+#dastebandi {
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(63, 64, 100);
+    display: flex;
+    align-items: center;
+}
+
+.header2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+
+
+.header2 .menu .menu-nav {
+    width: 100%;
+    height: 100%;
+}
+
+.header2 .menu .menu-nav .menu-list {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header2 .menu .menu-nav .menu-list .menu-item {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    color: #62666d;
+}
+
+.header2 .menu .menu-nav .menu-list .menu-item:last-child {
+    margin-right: auto;
+}
+
+.header2 .menu .menu-nav .menu-list .menu-item:not(.location):after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background-color: #EF394E;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 300ms linear;
+    transform-origin: left;
+}
+
+.header2 .menu .menu-nav .menu-list .menu-item:hover:after {
+    transform: scaleX(1);
+}
+
+.header2 .menu .menu-nav .menu-list .menu-item:nth-of-type(2) {
+    width: 1px;
+    height: 16px;
+}
+
+.header2 .menu .menu-nav .menu-list .menu-item:nth-of-type(8) {
+    width: 1px;
+    height: 16px;
+    color: #e0e0e2;
+}
+
+.header2 .menu .menu-nav .menu-list .menu-item .menu-link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 100%;
+    padding: 0 12px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: #62666d;
+}
+
+
+.header2 .menu2 {
+    width: 150%;
+    height: 70dvh;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+    background-color: rgb(240, 240, 241);
+}
+
+.header2 .menu-item:hover .menu2 {
+    display: flex;
+    align-items: center;
+}
+
+
+.header2 .menu2 .menu2-nav {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    direction: ltr;
+    background-color: rgb(240, 240, 241);
+}
+
+.header2 .menu2 .menu2-nav .menu2-list {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    direction: rtl;
+    background-color: rgb(240, 240, 241);
+
+}
+
+.header2 .menu2 .menu2-nav .menu2-list .menu2-item {
+    width: 100%;
+    height: 50px;
+}
+
+.header2 .menu2 .menu2-nav .menu2-list .menu2-item .menu2-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: flex-start;
+    line-height: 50pX;
+    padding: 12px 8px;
+}
+
+.header2 .menu2 .menu2-nav .menu2-list .menu2-item .menu2-link:hover {
+    background-color: white;
+    color: #ff253a;
+}
+
+.header2 .menu2 .menu2-nav .menu2-list .menu2-item .menu2-link svg {
+    margin-left: 8px;
+}
+
+.header2 .menu3 {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 70vw;
+    height: 70dvh;
+    display: none;
+}
+
+.header2 .menu3 .menu3-nav {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    direction: ltr;
+    background-color: white;
+    border-bottom-left-radius: 16px;
+    padding: 20px 20px 0 20px;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    direction: rtl;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item {
+    display: inline-block;
+    width: 24%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 16px;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:first-child {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 16px;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:first-child .menu3-link {
+    color: #008eb2;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:first-child .menu3-link:hover {
+    color: #008eb2;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item .menu3-link {
+    text-decoration: none;
+    color: rgb(129, 133, 139);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(2) .menu3-link:before {
+    content: "";
+    display: inline-block;
+    transform: translateY(7px);
+    width: 2px;
+    margin-left: 6px;
+    height: 50%;
+    background-color: #EF394E;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(3) .menu3-link:before {
+    content: "";
+    display: inline-block;
+    transform: translateY(7px);
+    width: 2px;
+    margin-left: 6px;
+    height: 50%;
+    background-color: #EF394E;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(4) .menu3-link:before {
+    content: "";
+    display: inline-block;
+    transform: translateY(7px);
+    width: 2px;
+    margin-left: 6px;
+    height: 50%;
+    background-color: #EF394E;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(5) .menu3-link:before {
+    content: "";
+    display: inline-block;
+    transform: translateY(7px);
+    width: 2px;
+    margin-left: 6px;
+    height: 50%;
+    background-color: #EF394E;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(2) .menu3-link {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(3) .menu3-link {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(4) .menu3-link {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item:nth-of-type(5) .menu3-link {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header2 .menu3 .menu3-nav .menu3-list .menu3-item .menu3-link:hover {
+    background-color: white;
+    color: #ff253a;
+}
+
+
+.header2 .menu2 .menu2-nav .menu2-list .menu2-item:first-child .menu3 {
+    display: block;
+}
+
+.header2 .menu2 .menu2-nav .menu2-list .menu2-item:hover .menu3 {
+    display: block;
+}
+
+.menu ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+.menu ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+
+.menu ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 16px;
+}
+
+
+
+

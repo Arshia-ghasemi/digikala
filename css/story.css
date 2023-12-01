@@ -1,0 +1,44 @@
+.story-section {
+    width: 1240px;
+    height: 138px;
+    margin: 0 103px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.story-section .story a {
+    width: 75px;
+    height: 98px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.story-section .story .image {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.story-section .story .image img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2.83px solid rgb(237, 27, 52);
+    padding: 2px;
+}
+
+.story-section .story h4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+
+.story-section .story a:active img {
+    border: 2.83px solid #dddddd;
+    opacity: 70%;
+}

@@ -1,0 +1,46 @@
+.khandani {
+    width: 1336px;
+    height: 65px;
+    padding: 16px 20px;
+    margin: 10px 62px;
+}
+
+.khandani h4 {
+    text-align: right;
+    display: inline;
+    margin-left: 1032px;
+}
+
+.digimag {
+    color: rgb(25, 191, 211);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.khandani-content div {
+    border-radius: 16px;
+    border: 0.5px solid rgb(224, 224, 226);;
+    display: inline-block;
+
+}
+
+.khandani-content {
+    margin: 10px 62px;
+    direction: ltr;
+}
+
+.khandani-content div img {
+    width: 324px;
+    height: 202px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.khandani-content div p {
+    width: 291px;
+    margin: 8px 0 12px;
+    padding: 0 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}

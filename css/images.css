@@ -1,0 +1,19 @@
+.main-img-container {
+    width: 90%;
+    margin: 10px 62px;
+    display: flex;
+    gap: 10px;
+}
+
+.main-img {
+    width: 322px;
+    height: 241px;
+    border-radius: 16px;
+}
+
+
+.main-img2 {
+    width: 660px;
+    height: 264px;
+    border-radius: 16px;
+}

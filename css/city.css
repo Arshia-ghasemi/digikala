@@ -1,0 +1,147 @@
+.header2 .city {
+    font-size: 12px;
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    color: rgb(63, 64, 100) !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.header2 .city svg {
+    width: 18px;
+    height: 18px;
+    fill: rgb(66, 71, 80);
+}
+
+.cover {
+    width: 100%;
+    height: 100dvh;
+    background: rgba(12, 12, 12, 0.5);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.cover .cities {
+    width: 460px;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999 !important;
+    border-radius: 8px;
+}
+
+.cover .cities .head {
+    width: 100%;
+    height: 58px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cover .cities .head .title {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(12, 12, 12);
+}
+
+.cover .cities .head .title .closecity {
+    cursor: pointer;
+}
+
+.cover .cities .head::after {
+    content: "";
+    width: calc(100% - 40px);
+    height: 1px;
+    background-color: rgb(224, 224, 226);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cover .cities .cityItems {
+    width: 100%;
+    height: calc(100% - 58px);
+}
+
+.cover .cities .cityItems .cityItems-nav {
+    width: 100%;
+    height: 100%;
+    padding: 16px 20px;
+    overflow: auto;
+}
+
+.cover .cities .cityItems .cityItems-nav .cityItems-list {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.cover .cities .cityItems .cityItems-nav .cityItems-list .cityItems-item {
+    width: 100%;
+    height: 56px;
+    padding: 12px 0;
+    border-bottom: 0.5px solid #f0f0f1;
+}
+
+.cover .cities .cityItems .cityItems-nav .cityItems-item .cityItems-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #3f4064;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#openCity:checked ~ .cover {
+    display: block;
+    animation: fadeIn 300ms forwards;
+}
+
+#openCity, #closeCity {
+    display: none;
+}
+
+.Gps {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start !important;
+    gap: 16px;
+    color: rgb(25, 191, 211);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

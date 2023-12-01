@@ -1,0 +1,38 @@
+@import "reset.css";
+@import "font.css";
+@import "Header.css";
+@import "city.css";
+@import "module.css";
+@import "images.css";
+@import "story.css";
+@import "slider1.css";
+@import "offer.css";
+@import "incerdible super market.css";
+@import "kharid bar asas dastebandi.css";
+@import "digikala offer.css";
+@import "mahbobtarin brandha.css";
+@import "bar asas bazdid.css";
+@import "digiplus.css";
+@import "digiclub.css";
+@import "por foroshtarinha.css";
+@import "hottest.css";
+@import "montakhab off.css";
+@import "khandani.css";
+@import "footer.css";
+
+.support {
+    width: 48px;
+    height: 48px;
+    background-color: #EF4056;
+    border-radius: 50%;
+    position: fixed;
+    left: 44px;
+    top: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+
+
+

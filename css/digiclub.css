@@ -1,0 +1,73 @@
+.digiclub {
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    width: 1336px;
+    height: 87px;
+    padding: 12px 16px;
+    margin: 8px 62px 0;
+    border-radius: 16px;
+}
+
+.digiclub .logo {
+    width: 119px;
+    height: 33px;
+    margin-top: 16px;
+    margin-right: 20px;
+
+}
+
+
+.digiclub .item {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 60px;
+    float: left;
+    margin-left: 4px;
+
+}
+
+.digiclub .item:nth-of-type(1) {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.digiclub .item a img:nth-of-type(1) {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.digiclub .item:nth-of-type(3) {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.digiclub .item a {
+    position: relative;
+}
+
+.digiclub .item a .subtitle {
+    width: 102px;
+    height: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.digiclub .item a .subtitle .svg1 {
+    margin-right: 6px;
+}
+
+.digiclub .item a img {
+    width: 168px;
+    height: 60px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

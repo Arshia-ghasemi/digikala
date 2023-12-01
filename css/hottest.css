@@ -1,0 +1,19 @@
+.hottest {
+    width: 1336px;
+    height: 403px;
+    padding: 8px 20px;
+    margin: 10px 62px;
+    border-radius: 16px;
+    border: 0.5px solid rgb(224, 224, 226);
+    position: relative;
+}
+
+.hottest h3 {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    line-height: 44px;
+    text-align: center;
+    padding: 10px 0;
+}

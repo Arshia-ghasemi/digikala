@@ -1,0 +1,126 @@
+.por-foroshtarin-kala {
+    width: 1336px;
+    height: 403px;
+    padding: 8px 20px;
+    margin: 10px 62px;
+    border-radius: 16px;
+    border: 0.5px solid rgb(224, 224, 226);
+    position: relative;
+}
+
+.por-foroshtarin-kala h3 {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-items: center;
+    line-height: 44px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.slider2 .swiper {
+    width: 100%;
+    height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    cursor: pointer;
+    height: calc((100% - 70px) / 3) !important;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+}
+
+.slider2 .swiper-slide img {
+    width: 86px;
+    height: 86px;
+}
+
+.slider2 .swiper-slide .num {
+    font-size: 26px;
+    font-weight: 800;
+    color: rgb(25, 191, 211);
+    cursor: pointer;
+    margin: 0 12px;
+}
+
+.slider2 .swiper-slide .parag {
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    font-weight: 400;
+    width: 50%;
+    text-align: right;
+}
+
+.slider2 .swiper-slide .underline {
+    width: 187px;
+    height: 1px;
+    display: block;
+    background-color: rgb(240, 240, 241);
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+}
+
+.slider2 .swiper-button-next {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background-color: white;
+    outline-color: rgb(63, 64, 100);
+    top: 42%;
+    right: 96.5% !important;
+    border: 0.5px solid rgba(66, 81, 80, 0.5);
+}
+
+.slider2 .swiper-button-next::after {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 10px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(63, 64, 100);
+}
+
+.slider2 .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background-color: white;
+    outline-color: rgb(63, 64, 100);
+    position: absolute;
+    top: 42%;
+    right: 20px !important;
+    border: 0.5px solid rgba(66, 81, 80, 0.5);
+}
+
+.slider2 .swiper-button-prev::after {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 10px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(63, 64, 100);
+}
+
+.look-more {
+    width: 80px;
+    height: 30px;
+    color: rgb(25, 191, 211);
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    right: 93%;
+}

@@ -1,0 +1,144 @@
+.incredible-supermarket {
+    background: url("../images/super market.svg") #efebeb left center no-repeat scroll;
+    background-size: auto;
+    background-origin: padding-box;
+    width: 1336px;
+    height: 110px;
+    margin: 10px 62px;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.incredible-supermarket .main-title {
+    padding-bottom: 22px;
+    vertical-align: middle;
+    display: inline-block;
+    justify-content: right;
+    padding-top: 24px;
+    padding-right: 44px;
+    margin-left: 100px;
+}
+
+.incredible-supermarket .main-title .title {
+    margin-left: 20px;
+}
+
+.incredible-supermarket .main-title .sabad {
+    width: 66px;
+    height: 80px;
+    vertical-align: middle;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.incredible-supermarket .main-title .sabad img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.incredible-supermarket .main-title .link {
+    display: inline-block;
+    width: 110px;
+    height: 28px;
+    padding-top: 22px;
+    padding-right: 44px;
+    background-color: rgb(57, 174, 0);
+    border-radius: 9999px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    margin-top: 16px;
+
+}
+
+.incredible-supermarket .main-title .link span {
+    display: block;
+    width: 110px;
+    height: 100%;
+    position: absolute;
+    top: 4px;
+    right: 2px;
+}
+
+.incredible-supermarket .items {
+    float: left;
+    display: inline-block;
+    width: 636px;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.incredible-supermarket .items .item {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    vertical-align: center;
+}
+
+.incredible-supermarket .items .item img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.incredible-supermarket .items .item span {
+    width: 34px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(239, 57, 78);
+    border-radius: 16px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.incredible-supermarket .items .item.more {
+    width: 144px;
+    height: 50px;
+    padding: 12px 20px;
+    border-radius: 9999px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    top: 30%;
+    left: 18px;
+}
+
+.incredible-supermarket .items .item.more svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(57, 174, 0);
+}
+
+.incredible-supermarket .items .item.more .link {
+    color: rgb(57, 174, 0);
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.incredible-supermarket .items .item.more i {
+    height: 20px;
+    width: 20px;
+
+}
+
+

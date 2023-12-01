@@ -1,0 +1,46 @@
+.kharid-bar-dastebandi {
+    width: 1336px;
+    height: 436px;
+    margin: 10px 62px;
+    padding: 16px 16px 40px;
+    border-radius: 16px;
+
+}
+
+.kharid-bar-dastebandi h3 {
+    align-items: center;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.kharid-bar-dastebandi .container {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 30px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.kharid-bar-dastebandi .item {
+    width: 186px;
+    height: 134px;
+}
+
+
+.kharid-bar-dastebandi .item a img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.kharid-bar-dastebandi .item a p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 8px 0 0;
+    text-align: center;
+}
+

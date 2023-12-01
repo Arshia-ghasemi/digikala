@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iranyekan, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding-top: 170px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c2c0c0;
+}
